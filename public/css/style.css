@@ -1,0 +1,119 @@
+:root{
+    --azul-padrão: #0084ff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.form{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.container-form{
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgb(134, 134, 134);
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    padding: 2rem;
+}
+.input-form{
+    width: 100%;
+    margin: auto;
+    transition: 200ms;
+    height: 100%;
+    outline: none;
+    font-size: 12pt;
+    border: none;
+    vertical-align: middle;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.box-input{
+    align-items: stretch;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+    text-align: start;
+    margin-top: 2rem;
+}
+.input-form:focus{
+    border-bottom: 2px solid var(--azul-padrão)!important;
+}
+.button-login{
+    transition: 200ms;
+    color: white;
+    margin-top: 2rem;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 60%;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+    background-color: var(--azul-padrão);
+}
+.button-login:hover{
+    background-color: white;
+    border: 1px solid var(--azul-padrão);
+    color: var(--azul-padrão);
+}
+#icon-pass{
+    transition: 200ms;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#icon-pass:active{
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: inset 0 0 30px var(--azul-padrão);
+}
+ion-icon {
+    font-size: 10px!important;
+    color: rgb(0, 0, 0);
+    align-self: center;
+    margin-right: 5px;
+}
+#link-regi{
+    align-self: center;
+}
+.button-theme{
+    padding: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 750px)
+{
+    .container-form{
+        margin-top: 0rem;
+        border-radius: 0;
+        width: 80%;
+        text-align: center;
+        padding: 2rem;
+
+    }.button-login{
+        transition: 200ms;
+        color: white;
+        margin-top: 2rem;
+        height: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        width: 100%;
+        outline: none;
+        cursor: pointer;
+        font-size: 16px;
+        align-self: center;
+        background-color: var(--azul-padrão);
+    }
+}

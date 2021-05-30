@@ -1,0 +1,26 @@
+.container-info{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.table-item-table{
+    height: 2rem;
+}
+.block-info{
+
+    padding: 1rem;
+}
+.item-info{
+    margin: 10px;
+}
+.teste{
+    background-color: #7c0101;
+}
+.button-on{
+    background-color: #12d112!important;
+}
+.button-on:hover{
+    border: 1px solid #12d112!important;
+    color: #12d112!important;
+    background: white!important;
+}
