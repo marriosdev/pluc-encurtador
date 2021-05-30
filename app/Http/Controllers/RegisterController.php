@@ -37,6 +37,8 @@ class RegisterController extends Controller
             $save = false;
         }
         if($save){
+            $user->save();        
+            $user = $request->user();
             return redirect("login");
         }
         else{
