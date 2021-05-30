@@ -17,7 +17,7 @@
     <div class="header">
         <!-- Navbar -->
         <ion-icon id="button-mobile-menu" onclick="open_menu()" name="menu-outline"></ion-icon>
-        <a href="/" class="logo-mobile">Pluto2.0</a>
+        <a href="/" class="logo-mobile">Pluc Encurtador</a>
         <nav class="navbar" id="navbar-menu" name="close">
             <!-- Items -->
             <ul class="menu">
@@ -72,8 +72,8 @@
     </div>
     <div class="footer">
         <div class="icons-footer">
-            <a href="https://github.com"    target="_blank"><ion-icon name="logo-octocat"></ion-icon></a> 
-            <a href="https://instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://github.com/edmariooliver"    target="_blank"><ion-icon name="logo-octocat"></ion-icon></a> 
+            <a href="https://www.instagram.com/_marriosd/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
             <a href="https://linkedin.com"  target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>           
         </div>
         <div class="content-footer">
