@@ -134,6 +134,9 @@ ion-icon{
     background-color: var(--azul-padrão);
     color: rgb(255, 255, 255);
     text-align: center;
+    bottom:0;
+    position: fixed;
+    margin-top: 40px;
 }
 /* ============== */
 /* Página inicial */
