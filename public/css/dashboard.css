@@ -135,7 +135,7 @@ ion-icon{
     color: rgb(255, 255, 255);
     text-align: center;
     bottom:0;
-    position: fixed;
+    position: absolute;
     margin-top: 40px;
 }
 /* ============== */
