@@ -129,14 +129,15 @@ ion-icon{
     font-size: 18pt
 }
 .footer {
-    display: flex;
-    flex-direction: column;
+    heigh: 100px;
+/*     display: flex; */
+/*     flex-direction: column; */
     width: 100%;
     background-color: var(--azul-padrão);
     color: rgb(255, 255, 255);
     text-align: center;
     bottom:0;
-    position: relative;
+    position: absolute;
     margin-top: 40px;
 }
 /* ============== */
