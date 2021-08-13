@@ -137,14 +137,14 @@ ion-icon{
 }
 .footer {
     heigh: 100px;
-/*     display: flex; */
-/*     flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: var(--azul-padrão);
     color: rgb(255, 255, 255);
     text-align: center;
     bottom:0;
-    position: absolute;
+    position: relative;
     margin-top: 40px;
 }
 /* ============== */
