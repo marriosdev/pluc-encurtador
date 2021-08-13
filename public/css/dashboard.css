@@ -9,6 +9,7 @@ h1{
     padding-bottom: 5rem;
 }
 *{
+    height: 100%;
     transition: 400ms !important;
     padding: 0;
     margin: 0;
@@ -135,7 +136,7 @@ ion-icon{
     color: rgb(255, 255, 255);
     text-align: center;
     bottom:0;
-    position: absolute;
+    position: fixed;
     margin-top: 40px;
 }
 /* ============== */
@@ -253,7 +254,8 @@ ion-icon{
     animation: info-alert infinite;
 }
 .block-links{
-    margin-bottom: 5rem;
+    postition: relative;
+    margin-bottom: 6rem;
     padding-top: 2rem;
     padding-left: 20%;
     padding-right: 20%;
