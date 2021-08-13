@@ -1,5 +1,5 @@
 @extends("layouts.base")
-@section("title", "Link {{ $link_encurt }}")
+@section("title", "Link")
 @section("content")
     <div class="block-links">
         <div class="link-user">
