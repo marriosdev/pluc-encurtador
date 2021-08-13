@@ -2,6 +2,13 @@
     --azul-padrão: #0084ff;
     --font-menu: 'Abel', sans-serif;
 }
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
 h1{
     font-family: var(--font-menu) ;
 }
