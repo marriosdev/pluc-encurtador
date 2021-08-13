@@ -19,8 +19,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
     
-    #Nova linha
-    RewriteCond %{SERVER_PORT} 80
-    RewriteRule ^(.*)$ https://www.pluc.ga/$1 [R,L]
 
 </IfModule>
