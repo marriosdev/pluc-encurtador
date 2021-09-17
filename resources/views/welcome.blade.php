@@ -52,7 +52,7 @@
             @foreach($links as $link)
                 <tr class="t-body">
                     <td> <a href="/{{ $link->link_encurt }}" target="_blank"><ion-icon name="open-outline"></ion-icon></ion-icon></a></td>
-                    <td class="data-table">http://pluc.com/{{ $link->link_encurt }}</td>
+                    <td class="data-table">{{ $link->link_encurt }}</td>
                     <td class="data-table link-table none-mobile">{{ $link->clicks }}</td>
                 </tr>
             @endforeach
