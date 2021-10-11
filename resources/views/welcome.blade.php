@@ -39,24 +39,24 @@
         </div>
         @endguest
     </section>
-    <section class="block-links">
-        <!-- TABELA DE LINKS GUEST--> 
-        <h2><ion-icon name="ribbon-outline"></ion-icon>Ranking </h2>
-        <br>
-        <table class="table-body">
-            <tr class="title-table">
-                <th></th>
-                <th>#Link</th>
-                <th class="none-mobile">#Acessos</th>
+    <!-- <section class="block-links">
+    <!-- TABELA DE LINKS GUEST--> 
+    <h2><ion-icon name="ribbon-outline"></ion-icon>Ranking </h2>
+    <br>
+    <table class="table-body">
+        <tr class="title-table">
+            <th></th>
+            <th>#Link</th>
+            <th class="none-mobile">#Acessos</th>
+        </tr>
+        @foreach($links as $link)
+            <tr class="t-body">
+                <td> <a href="/{{ $link->link_encurt }}" target="_blank"><ion-icon name="open-outline"></ion-icon></ion-icon></a></td>
+                <td class="data-table">{{ $link->link_encurt }}</td>
+                <td class="data-table link-table none-mobile">{{ $link->clicks }}</td>
             </tr>
-            @foreach($links as $link)
-                <tr class="t-body">
-                    <td> <a href="/{{ $link->link_encurt }}" target="_blank"><ion-icon name="open-outline"></ion-icon></ion-icon></a></td>
-                    <td class="data-table">{{ $link->link_encurt }}</td>
-                    <td class="data-table link-table none-mobile">{{ $link->clicks }}</td>
-                </tr>
-            @endforeach
-        </table>
-    </section>
+        @endforeach
+    </table>
+</section> -->
 
 @endsection
