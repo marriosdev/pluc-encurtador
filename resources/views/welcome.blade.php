@@ -40,7 +40,6 @@
         @endguest
     </section>
     <!-- <section class="block-links">
-    <!-- TABELA DE LINKS GUEST--> 
     <h2><ion-icon name="ribbon-outline"></ion-icon>Ranking </h2>
     <br>
     <table class="table-body">
